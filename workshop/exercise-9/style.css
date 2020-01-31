@@ -3,18 +3,27 @@ img {
   }
   
   .img1 {
-  
+  z-index: 1;
+  position: relative;
   }
   
   .img2 {
-  
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    padding-right: 400px;
+    padding-bottom: 250px;
   }
   
   .img3 {
-  
+  display: block;
+  padding-left: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   }
   
   .img4 {
-  
+  padding-left: 1100px;
   }
   
